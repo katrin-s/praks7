@@ -7,6 +7,6 @@ let ounceOutput = document.getElementById('ounceOutput');
 kgInput.addEventListener('input', event => {
     let kg = event.target.value;
     gramOutput.innerHTML = `${kg * 1000} g`;
-    poundOutput.innerHTML = `${kg * 2.205} lbs`;
+    poundOutput.innerHTML = `${kg * 2.20462} lb`;
     ounceOutput.innerHTML = `${kg * 35.274} oz`;
 });
