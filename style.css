@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.content {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#output {
+    margin: 0 auto;
+    text-align: left;
+}
+
+td {
+    padding-right: 10px;
+}
+input {
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bg {
+    background-color: floralwhite;
+    color: black;
+}
+button {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: white;
+}
+button:hover {
+    background: antiquewhite;
+}

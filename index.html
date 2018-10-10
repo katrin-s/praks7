@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Praks 7</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <section class="content">
     <h1>Kaalu teisendamine</h1>
+    <button id="nightToggle">Muuda lehe värvi</button>
     <form action="">
-        <input type="number" placeholder="Kaal kilogrammides?" id="kgInput" min="0">
+        <input type="number" placeholder="Kaal kilogrammides?" id="kgInput" min="0" oninput="this.value = this.value.slice(0,12)">
     </form>
     <table id="output">
        <tr>
-           <td>Grammid</td>
+           <td>Grammid:</td>
            <td id="gramOutput"></td>
        </tr>
        <tr>
-           <td>Naelad</td>
+           <td>Naelad:</td>
            <td id="poundOutput"></td>
        </tr>
        <tr>
-           <td>Untsid</td>
+           <td>Untsid:</td>
            <td id="ounceOutput"></td>
        </tr>
     </table>
     <script src="main.js"></script>
+    </section>
 </body>
 </html>
